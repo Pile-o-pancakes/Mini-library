@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    flex-direction: column;
+}
+
+.bookPage > article, h1, h2, h3, h4, p {
+    color: whitesmoke;
+}
+
+h1 {
+    margin: 5rem auto;
+    text-align: center;
+}
+
+h2 {
+    margin: 4rem;
+}
+
+h3 {
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin: 2rem;
+}
+
+.bookPage > article {
+    margin: 2rem;
+}
+
+p {
+    margin-left: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+#mainScreen_1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#subScreen_1 {
+    display: flex;
+    justify-content: center;
+}
+
+#bookList_1 {
+    display: flex;
+}
+
+.book {
+    background-image: linear-gradient(to top right, rgb(70, 70, 70), rgb(120, 120, 120));
+    width: 200px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#book_1 {
+    background-image: linear-gradient(to top right, rgb(20, 30, 110), rgb(80, 140, 180));
+}
+
+#book_2 {
+    background-image: linear-gradient(to top right, rgb(60, 150, 80),rgb(170, 200, 170));
+}
+
+#book_3 {
+    background-image: linear-gradient(to top right, rgb(150, 20, 90), rgb(210, 120, 170));
+}
+
+#book_4 {
+    background-image: linear-gradient(to top right, rgb(150, 48, 145), rgb(220, 150, 210));
+}
+
+#book_5 {
+    background-image: linear-gradient(to top right, rgb(12, 70, 6), rgb(60, 200, 60));
+}
+
+#book_6 {
+    background-image: linear-gradient(to top right, rgb(180, 155, 13), rgb(220, 200, 160));
+}
+
+#book_7 {
+    background-image: linear-gradient(to top right, rgb(196, 64, 4), rgb(240, 190, 160));
+}
+
+#book_8 {
+    background-image: linear-gradient(to top right, rgb(9, 154, 173), rgb(120, 250, 250));
+}
+
+.bookPage {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageData {
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: space-around;
+}
